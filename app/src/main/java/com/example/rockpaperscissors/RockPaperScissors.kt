@@ -24,4 +24,12 @@ fun main() {
         playerChoice == "Scissors" && computerChoice == "Paper" -> "Player"
         else -> "Computer"
     }
+
+    if (winner == "Tie") {
+        println("It's a tie")
+    } else if (winner == "Player") {
+        println("Player won!")
+    } else {
+        println("Computer won!")
+    }
 }
